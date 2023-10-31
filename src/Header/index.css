@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 60px;
+}
+
+.header > h1 {
+  color: var(--midnight-ink);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  margin: 0 0 17px;
+}
+
+.header > h2 {
+  color: var(--serene-blue);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}

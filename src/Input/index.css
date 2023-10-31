@@ -1,0 +1,16 @@
+.form-input-wrapper {
+  position: relative;
+}
+
+.form-input {
+  border: none;
+  color: var(--midnight-ink);
+  height: 40px;
+  outline: none;
+  padding-left: 16px;
+  width: 100%;
+}
+
+.form-input::placeholder {
+  color: var(--soft-lilac);
+}

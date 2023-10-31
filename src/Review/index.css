@@ -1,0 +1,14 @@
+.review-pair {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.review-value {
+  font-weight: 500;
+}
+
+.complete {
+  margin-top: 16px;
+  width: 100%;
+}

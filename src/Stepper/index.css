@@ -1,0 +1,43 @@
+.stepper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 80px;
+  position: absolute;
+  top: 205px;
+}
+
+.stepper-screen {
+  display: flex;
+  gap: 12px;
+}
+
+.stepper-screen-stage {
+  border-radius: 2px;
+  height: 16px;
+  width: 16px;
+}
+
+.stepper-screen-stage--current {
+  background-color: var(--royal-purple);
+}
+
+.stepper-screen-stage--complete {
+  background-color: var(--misty-lilac);
+}
+
+.stepper-screen-stage--incomplete {
+  background-color: var(--lavender-blush);
+}
+
+.stepper-screen-name {
+  color: var(--serene-blue);
+}
+
+@media (max-width: 1023px) {
+  .stepper {
+    margin: 60px auto 0;
+    max-width: max-content;
+    position: static;
+  }
+}

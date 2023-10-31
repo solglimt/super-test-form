@@ -1,0 +1,48 @@
+:root {
+  --midnight-ink: #413c5f;
+  --serene-blue: #817ca5;
+  --royal-purple: #5845dd;
+  --misty-lilac: #87839f;
+  --lavender-blush: #c9c5e8;
+  --soft-lilac: #c0bcdf;
+  --pale-lavender: #f6f4ff;
+  --light-lavender: #dbd7ee;
+  --fiery-red: #da2121;
+  --cool-grey: #a39fc1;
+  --steel-grey: #8b85b1;
+  --white: #fff;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  color: var(--pale-lavender);
+  background-color: var(--midnight-ink);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  background-image: url("src/assets/bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
